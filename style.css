@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post{
+    height: 400px;
+    width: 224px;
+    background-image: url('img/lesha.jpg');
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.likes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.dislikes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.like{
+    width: 40px;
+    height: 40px;
+    background-image: url('https://free-png.ru/wp-content/uploads/2022/06/free-png.ru-65-340x332.png');
+    background-size: cover;
+}
+
+.like_num{
+    font-size: 25px;
+}
+
+.dislike{
+    width: 40px;
+    height: 40px;
+    background-image: url('https://free-png.ru/wp-content/uploads/2022/06/free-png.ru-65-340x332.png');
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.dislike_num{
+    font-size: 25px;
+}
+
+.comments{
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.comment{
+    width: 475px;
+    font-size: 27px;
+    border: 2px solid black;
+    margin: 7px;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add{
+    width: 400px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin: 7px;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+.save{
+    width: 224px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
